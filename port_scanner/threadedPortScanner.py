@@ -90,5 +90,5 @@ def main():
     threads = input("Ente your desired amount of threads: ")
     run_scanner(mode, threads)
 
-if __name__ == main:
+if __name__ == "__main__":
     main()
